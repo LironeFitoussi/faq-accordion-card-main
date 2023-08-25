@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     height: 100vh;
     background: rgb(101,101,231);
     background: linear-gradient(0deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 100%);
@@ -16,9 +16,10 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 65vw;
-    height: fit-content;
+    height: 60vh;
     background-color: #fff;
     border-radius: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .cont-left{
@@ -61,15 +62,30 @@ main {
 }
 
 .cont-right {
+    display: flex;
+    flex-direction: column;
     padding: 4vw;
     width: 100%;
-    height: 100%;
+    justify-content: space-between;
+    width: 60%;
+
 }
+
+.main-questions {
+}
+
 .header > h1 {
     font-size: 28px;
     font-weight: 600;
     margin: 0;
 }
+
+.qa-block {
+    color: hsl(238, 29%, 16%);
+    font-weight: 500;
+}
+
+
 #Color-Palete {
 
 /* ### Primary */

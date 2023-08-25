@@ -17,17 +17,24 @@ main {
     width: 80vw;
     background-color: #fff;
     border-radius: 2rem;
-
+    overflow: hidden;
+    padding: 3vw;
 }
 
-.cont-right{
+.cont-left{
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
+    align-items: center;
 }
 
 .bg-pattern {
     width: 100%;
+    scale: 175%;
+    justify-self: end;
+    position: relative;
+    right: 20vw;
 }
 
 #Color-Palete {

@@ -3,6 +3,45 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+
+#Color-Palete {
+
+/* ### Primary */
+
+/* #### Text */
+
+/* - Very dark desaturated blue */
+color: hsl(238, 29%, 16%);
+
+/* - Soft red */
+color: hsl(14, 88%, 65%);
+
+/* #### Gradient */
+
+/* Background gradient: */
+
+/* - Soft violet */
+color: hsl(273, 75%, 66%);
+
+/* - Soft blue */
+color: hsl(240, 73%, 65%);
+
+/* ### Neutral */
+
+/* #### Text */
+
+/* - Very dark grayish blue */
+color: hsl(237, 12%, 33%);
+/* - Dark grayish blue */
+color: hsl(240, 6%, 50%);
+
+/* #### Dividers */
+
+/* - Light grayish blue */
+color: hsl(240, 5%, 91%);
+
+}
 .attribution { 
     font-size: 11px; text-align: center; 
 }

@@ -76,11 +76,32 @@ main {
     justify-content: space-between;
 }
 
+.question-clicked {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.arrow {
+    transform: rotate(0deg);
+}
+
+.arrow.rotated {
+    transform: rotate(180deg);
+}
+
 .answer {
     height: 0;
     display: none;
     overflow: hidden;
 }
+
+.answer.visible {
+    display: block;
+    height: auto;
+}
+
 
 .arrow:hover {
     cursor: pointer;
@@ -102,6 +123,14 @@ main {
     border-bottom: solid thin hsl(240, 5%, 91%);
 
 }
+
+
+/* js classes */
+
+.rotated {
+    
+  }
+  
 
 
 #Color-Palete {

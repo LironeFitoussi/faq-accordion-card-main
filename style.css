@@ -127,15 +127,9 @@ main {
     border-bottom: solid thin hsl(240, 5%, 91%);
 
 }
-
-
-/* js classes */
-
-.rotated {
-    
-  }
-  
-
+.onilne-illustration-mobile {
+    display: none;
+}
 
 #Color-Palete {
 
@@ -183,4 +177,57 @@ color: hsl(240, 5%, 91%);
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 375px){
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 0;
+        height: fit-content;
+        position: fixed;
+    }
+
+    .cont-left {
+        height: 8vh;
+    }
+    
+    .to-overflow {
+        display: none;
+    }
+
+    .bg-pattern {
+        display: none;
+    }
+
+    .box-img {
+        display: none;
+    }
+
+    .online-illustration {
+        display: none;
+    }
+
+    .onilne-illustration-mobile {
+        display: flex;
+        position: absolute;
+        bottom: 1vh;
+        width: 65%;
+    }
+
+    .cont-right {
+        align-items: center;
+    }
+
+    .header > h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .main-questions {
+        width: 90%;
+        font-size: 13px;
+    }
 }

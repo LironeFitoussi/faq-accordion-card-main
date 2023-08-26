@@ -16,7 +16,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 65vw;
-    height: 60vh;
+    height: 55vh;
     background-color: #fff;
     border-radius: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -43,11 +43,11 @@ main {
 
 .bg-pattern {
     width: 100%;
-    scale: 200%;
+    scale: 215%;
     justify-self: end;
     position: relative;
-    right: 21vw;
-    bottom: 8vh;
+    right: 23.5vw;
+    bottom: 9.5vh;
 }
 
 .online-illustration {
@@ -67,13 +67,15 @@ main {
     display: flex;
     flex-direction: column;
     padding: 4vw;
-    width: -webkit-fill-available;
+    gap: 2vh;
+    width: -webkit-fill-available
 }
 
 .question {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: hsl(237, 12%, 33%);
 }
 
 .question-clicked {
@@ -100,6 +102,8 @@ main {
 .answer.visible {
     display: block;
     height: auto;
+    color: hsl(240, 6%, 50%);
+    line-height: 2.5vh;
 }
 
 

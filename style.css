@@ -50,6 +50,10 @@ main {
     bottom: 9.5vh;
 }
 
+.oim-shadow {
+    display: none;
+}
+
 .online-illustration {
     position: absolute;
     right: 5vw;
@@ -191,7 +195,7 @@ color: hsl(240, 5%, 91%);
     }
 
     .cont-left {
-        height: 8vh;
+        height: 11vh;
     }
     
     .to-overflow {
@@ -210,15 +214,21 @@ color: hsl(240, 5%, 91%);
         display: none;
     }
 
+    .oim-shadow {
+        display: block;
+        width: 65%;
+    }
+
     .onilne-illustration-mobile {
         display: flex;
         position: absolute;
-        bottom: 1vh;
+        bottom: 3.5vh;
         width: 65%;
     }
 
     .cont-right {
         align-items: center;
+        margin-bottom: 3vh;
     }
 
     .header > h1 {

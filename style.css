@@ -60,6 +60,7 @@ main {
     top: 25.5vh;;
     right: 25.5vw;
     z-index: +100;
+    filter: drop-shadow(5px 6px 27px rgba(0, 0, 0, 0.51));
 }
 
 .cont-right {
